@@ -1,21 +1,21 @@
 module.exports = {
-  title: "Harry Potter",
+  title: "TSMC lab",
   description: "The description of the site.",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/",
   dest: "./dist",
-
+  plugins: ['@vuepress/back-to-top'],
   themeConfig: {
     search: false,
     nav: [
-      { text: "Home", link: "/" },
-      { text: "About", link: "/about/" },
-      { text: "Projects", link: "/projects/" },
-      { text: "Guide", link: "/guide/" },
+      { text: "主页", link: "/" },
+      { text: "项目", link: "/projects/" },
+      { text: "荣誉和奖项",link:"/honer/"},
+      { text: "关于", link: "/about/" },
       { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
     ],
     sidebar: {
-      '/guide/': genSidebarConfig('Guide')
+      '/honer/':genSidebarConfig('Honer')
     },
     lastUpdated: 'Last Updated'
   },
@@ -36,9 +36,8 @@ function genSidebarConfig (title) {
       collapsable: false,
       children: [
         '',
-        'getting-started',
-        'customize',
-        'advanced',
+        '2022',
+        '2021',
       ]
     }
   ]
