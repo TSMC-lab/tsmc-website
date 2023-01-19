@@ -2,7 +2,7 @@
 pageClass: about-page
 description: 'The biography and information about me.'
 avatar: /profile.jpg
-head: 'Harry Potter'
+head: 'TSMC lab'
 info: 'Student at Hogwarts School'
 # socials:
 # - title: github

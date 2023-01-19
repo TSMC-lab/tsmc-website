@@ -1,20 +1,19 @@
 ---
 pageClass: projects-page
 ---
-
 # Work
 
-Here are some works of mine :books:
+我们的工作 📚
 
 ## Projects
 
 <ProjectCard image="/projects/1.png">
 
   Harry P., Hermione G., *et al*
-  
+
   **项目**
   这里填写项目
-  
+
   [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
 
 </ProjectCard>
@@ -24,7 +23,7 @@ Here are some works of mine :books:
 <ProjectCard>
 
   **论文**
-  
+
  这里填写论文发表
 
   [[Link](https://www.google.com)]

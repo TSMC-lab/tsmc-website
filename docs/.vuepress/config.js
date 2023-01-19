@@ -12,7 +12,7 @@ module.exports = {
       { text: "项目", link: "/projects/" },
       { text: "荣誉和奖项",link:"/honer/"},
       { text: "关于", link: "/about/" },
-      { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
+      { text: "GitHub", link: "https://github.com/TSMC-lab" }
     ],
     sidebar: {
       '/honer/':genSidebarConfig('Honer')

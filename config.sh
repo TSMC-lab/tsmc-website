@@ -7,5 +7,5 @@ yarn
 # OR npm install
 
 # Run
-$ yarn dev
+yarn dev
 # OR npm run dev
