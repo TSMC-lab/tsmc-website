@@ -22,23 +22,22 @@ email: harry (at) hogwarts (dot) edu
 ---
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## About Me
+## 关于我们
 
 I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors.
+ 💫
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. 💫
-
-## News
+## 新闻
 
 - [Sept 1991] Attended Hogwarts
 - [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
 
-## Education & Experiences
+## 教育经历
 
 - **Hogwarts School of Witchcraft and Wizardry** <br/>
   Sept 1991 - 1997
 
-## Projects
+## 项目
 
 [→ Full list](/projects/)
 
@@ -64,9 +63,9 @@ I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fe
 
 </ProjectCard>
 
-## Awards & Honors
+## 获奖
 
-### Contests
+### 竞赛
 
 - First place in **The Hogwarts House Cup**
 

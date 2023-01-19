@@ -10,8 +10,16 @@ module.exports = {
     nav: [
       { text: "主页", link: "/" },
       { text: "项目", link: "/projects/" },
-      { text: "荣誉和奖项",link:"/honer/"},
+      { 
+        text: "荣誉和奖项",
+        link:"/honer/",
+        items:[
+          { text: '2021',link:"/honer/2021"},
+          { text: '2022',link:"/honer/2022"},
+        ]
+      },
       { text: "关于", link: "/about/" },
+      { text: "CN", link:"/cn/"},
       { text: "GitHub", link: "https://github.com/TSMC-lab" }
     ],
     sidebar: {

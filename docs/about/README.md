@@ -3,7 +3,7 @@ pageClass: about-page
 description: 'The biography and information about me.'
 avatar: /profile.jpg
 head: 'TSMC lab'
-info: 'Student at Hogwarts School'
+info: 'Dalian Maritime University'
 # socials:
 # - title: github
 #   link: https://github.com/mtobeiyf
@@ -16,10 +16,8 @@ info: 'Student at Hogwarts School'
 actions:
 - text: Projects
   link: /projects/
-- text: Blog
-  link: https://github.com/mtobeiyf
 - text: CV
-  link: /article/
+  link: /
 footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
