@@ -8,7 +8,7 @@ profile: /profile.jpg
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
+    link: "https://github.com/TSMC-lab" 
   - title: linkedin
     icon: "/icons/linkedin-mono.svg"
     link: https://www.linkedin.com
@@ -22,22 +22,23 @@ email: harry (at) hogwarts (dot) edu
 ---
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## 关于我们
+## About Us
 
 I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors.
- 💫
 
-## 新闻
+I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. 💫
+
+## News
 
 - [Sept 1991] Attended Hogwarts
 - [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
 
-## 教育经历
+## Education & Experiences
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
+- **Hogwarts School of Witchcraft and Wizardry** `<br/>`
   Sept 1991 - 1997
 
-## 项目
+## Projects
 
 [→ Full list](/projects/)
 
@@ -63,9 +64,9 @@ I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org
 
 </ProjectCard>
 
-## 获奖
+## Awards & Honors
 
-### 竞赛
+### Contests
 
 - First place in **The Hogwarts House Cup**
 

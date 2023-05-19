@@ -9,21 +9,23 @@ module.exports = {
     search: false,
     nav: [
       { text: "主页", link: "/" },
-      { text: "项目", link: "/projects/" },
+      { text: "成果展示", link: "/projects/" },
       { 
-        text: "荣誉和奖项",
-        link:"/honer/",
+        text: "成员",
+        link:"/members/",
         items:[
-          { text: '2021',link:"/honer/2021"},
-          { text: '2022',link:"/honer/2022"},
+          { text: '2017',link:"/members/2017"},
+          { text: '2018',link:"/members/2018"},
+          { text: '2019',link:"/members/2019"},
+          { text: '2020',link:"/members/2020"},
         ]
       },
       { text: "关于", link: "/about/" },
-      { text: "CN", link:"/cn/"},
-      { text: "GitHub", link: "https://github.com/TSMC-lab" }
+      { text: "EN", link:"/en/"},
+      // { text: "GitHub", link: "https://github.com/TSMC-lab" }
     ],
     sidebar: {
-      '/honer/':genSidebarConfig('Honer')
+      '/members/':genSidebarConfig('成员')
     },
     lastUpdated: 'Last Updated'
   },
@@ -41,11 +43,12 @@ function genSidebarConfig (title) {
   return [
     {
       title,
-      collapsable: false,
+      collapsable: true,
       children: [
-        '',
-        '2022',
-        '2021',
+        '2017',
+        '2018',
+        '2019',
+        '2020',
       ]
     }
   ]
