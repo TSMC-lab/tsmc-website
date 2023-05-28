@@ -2,13 +2,13 @@
 pageClass: home-page
 # some data for the components
 
-name: TSMC-lab
+name: TSMC-Club
 profile: /profile.jpg
 
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
+    link: https://github.com/TSMC-lab
   # - title: linkedin
   #   icon: "/icons/linkedin-mono.svg"
   #   link: https://www.linkedin.com
@@ -24,7 +24,7 @@ email:
 
 ## 关于我们
 
-社团简介
+**社团简介**
 
 <!-- I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. -->
 
@@ -32,16 +32,14 @@ email:
 
 ## 近期动态
 - **成员过生日**
-  <LargeCard image="/moments/生日记录1.jpeg" hideBorder=true>
- </LargeCard>
+  <MultiPleCard :images="'/moments/生日记录1.jpeg'" hideBorder=true>
+ </MultiPleCard>
 - **[May 2023] 金石滩团建** 
-  <LargeCard image="/moments/金石滩.jpeg" hideBorder=true>
- </LargeCard>
+  <MultiPleCard :images="'/moments/金石滩.jpeg'" hideBorder=true>
+ </MultiPleCard>
 - **[May 2023] 大连科技创新大会**
-  <LargeCard image="/moments/创新大会1.jpeg">
- </LargeCard>
-  <LargeCard image="/moments/创新大会2.jpeg">
- </LargeCard>
+ <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']">
+ </MultiPleCard>
 <!-- - [July 1980] Born in Godric's Hollow, West Country, England, Great Britain -->
 
 <!-- - **Hogwarts School of Witchcraft and Wizardry**
@@ -49,7 +47,7 @@ email:
 
 ## 项目
 
-[→ Full list](/projects/)
+[→ 点击查看全部](/projects/)
 
 <ProjectCard image="/projects/1.png" hideBorder=true>
 
@@ -81,9 +79,9 @@ email:
 
 ## 历届成员
 
-[→ Full list](/members/2017)
+[→ 点击查看全部成员](/members/)
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **邹思雨**
   **2017级智能科学与技术专业**
@@ -93,13 +91,10 @@ email:
   校级数学建模二等奖
 
   连续三年获得国家励志奖学金
+  
+</ProjectCard> -->
 
-<!-- 
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)] -->
-
-</ProjectCard>
-
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **王佳慧**
   **2017级智能科学与技术专业**
@@ -126,11 +121,8 @@ email:
 
   2019.08 “创青春”辽宁青年创新创业大赛一等奖
 
-<!-- 
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)] -->
-
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **王倩**
   **2018级计算机科学与技术专业**
@@ -143,11 +135,9 @@ email:
 大连海事大学第24届大学生数学竞赛非数学专业组一等奖
 第十二届蓝桥杯全国软件和信息技术专业人才大赛辽宁赛区三等奖
 
-<!-- 
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)] -->
+</ProjectCard> -->
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **李宇龙**
   **2018级网络工程专业**
@@ -174,12 +164,10 @@ email:
 
   第二十四届大连海事大学数学竞赛二等奖（2019）
 
-<!-- 
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)] -->
 
-</ProjectCard>
+</ProjectCard> -->
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **刘忠岩**
   **2018级智能科学与技术专业**
@@ -214,12 +202,9 @@ email:
 
 2021.08大学生创新创业年会省级二等奖
 
-<!-- 
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)] -->
+</ProjectCard> -->
 
-</ProjectCard>
-
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **刘慧江**
   **2018级软件工程专业**
@@ -242,11 +227,9 @@ email:
 
   2020.05大连海事大学优秀团员
 
-<!-- 
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)] -->
+</ProjectCard> -->
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **汪海博**
   **2018级软件工程专业**
@@ -259,8 +242,9 @@ email:
 
   大学生数学建模竞赛辽宁省一等奖
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **平博文**
   **2019级智能科学与技术专业**
@@ -319,9 +303,9 @@ email:
 
 2022年06月 全国大学生创新创业训练计划 国家级立项
 
-</ProjectCard>
+</ProjectCard> -->
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **李东珉**
   **2019级智能科学与技术专业**
@@ -348,8 +332,9 @@ email:
 
   互联网+大学生创新创业竞赛省金奖
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **龚仕豪**
   **2019级交通管理专业**
@@ -364,8 +349,9 @@ email:
 
 全国大学生数学建模竞赛省级一等奖
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **李子毅**
   **2019级网络工程专业**
@@ -388,8 +374,9 @@ email:
 
   [[GITHUB](https://github.com/lizzy-0323)]
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **李俊**
   **2019级计算机科学与技术专业**
@@ -407,8 +394,9 @@ email:
 
 2020年辽宁省数学建模竞赛省级三等奖
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **尚修为**
   **2019级计算机科学与技术专业**
@@ -447,6 +435,7 @@ IEEE国际会议PAAP 2022 杰出论文奖
 大连海事大学63期党员发展对象培训班优秀学员
 
 </ProjectCard>
+
 <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **王德尧**
@@ -478,8 +467,9 @@ IEEE国际会议PAAP 2022 杰出论文奖
 2021 年 11 月 中国国际“互联网+”大学生创新创业大赛 省级铜奖
 2021 年 10 月 中国好创意暨全国数字艺术设计大赛 省级三等奖
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **柴昱**
   **2019级自动化专业**
@@ -512,8 +502,9 @@ RoboCom机器人开发大赛 省二(2022)
 
 国家奖学金 (2022)
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **吕思佳**
   **2019级通信工程专业**
@@ -529,16 +520,18 @@ RoboCom机器人开发大赛 省二(2022)
 
 2019至2020学年  优秀学生一等奖学金
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **曹振振**
   **2019级网络工程专业**
 
   **已保送中国科学技术大学**
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **朱夏晗潇**
   **2019级软件工程专业**
@@ -546,6 +539,7 @@ RoboCom机器人开发大赛 省二(2022)
   **已保送中国科学技术大学**
 
 </ProjectCard>
+
 <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **张艺彬**
@@ -554,6 +548,7 @@ RoboCom机器人开发大赛 省二(2022)
   **已保送厦门大学**
 
 </ProjectCard>
+
 <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **罗盟之**
@@ -561,15 +556,17 @@ RoboCom机器人开发大赛 省二(2022)
 
   **已保送上海交通大学**
 
-</ProjectCard>
-<ProjectCard image="/projects/1.png" hideBorder=true>
+</ProjectCard> -->
+
+<!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **徐正康**
   **2019级光电专业**
 
   **已保送中科院空天院**
 
-</ProjectCard>
+</ProjectCard> -->
+
 <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **申佳文**

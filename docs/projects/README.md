@@ -5,7 +5,9 @@ pageClass: projects-page
 
 来自TSMC社团的成果展示，包含项目、论文 📚
 
-## Projects
+## 项目
+
+### 创新创业类项目
 
 <ProjectCard image="/projects/1.png">
 
@@ -18,20 +20,30 @@ pageClass: projects-page
 
 </ProjectCard>
 
-## Publications
+### 竞赛类项目
+
+## 论文著作
 
 <ProjectCard>
 
+### 2020
+
+### 2021
+
+### 2022
+
+### 2023
+
 1. Dong Liu, He Jiang (*), Shikai Guo, Yuting Chen, Lei Qiao, What’s Wrong with Low-Code Development Platforms? An Empirical Study of Low-Code Development Platform Bugs, IEEE Transactions on Reliability. (SCI, CCF C, JCR 1区). (Accepted)
-2. Shikai Guo, Siwen Wang, Hui Li (*), Yulong Fan, Yaqing Liu, Bin Zhang, Multi-Feature Fusion Based Structural Deep Neural Network for Predicting Answer Time on Stack Overflow, Journal of Computer Science and Technology. [[link](DOI：https://doi.org/10.1007/s11390-023-1438-4 )](SCI, CCF B). 
-3. He Jiang (*), Hongyi Cheng, Shikai Guo, Xiaochen Li, Partition Based Differential Testing for Finding Embedded Code Generation Bugs in Simulink, the 60th ACM/IEEE Design Automation Conference (DAC 2023). (EI, CCF A). (Accepted) 
-4. Shikai Guo, Mengxuan Li, Xin Ge (*), Hui Li, Rong Chen, Tingting Li, Constructing Meaningful Code Changes via Graph Transformer, IET Software. 17(2), 154-167, April 2023. [[link](https://doi.org/10.1049/sfw2.12097 )](SCI, CCF B).
+2. Shikai Guo, Siwen Wang, Hui Li (*), Yulong Fan, Yaqing Liu, Bin Zhang, Multi-Feature Fusion Based Structural Deep Neural Network for Predicting Answer Time on Stack Overflow, Journal of Computer Science and Technology. [[link](DOI：https://doi.org/10.1007/s11390-023-1438-4)](SCI, CCF B).
+3. He Jiang (*), Hongyi Cheng, Shikai Guo, Xiaochen Li, Partition Based Differential Testing for Finding Embedded Code Generation Bugs in Simulink, the 60th ACM/IEEE Design Automation Conference (DAC 2023). (EI, CCF A). (Accepted)
+4. Shikai Guo, Mengxuan Li, Xin Ge (*), Hui Li, Rong Chen, Tingting Li, Constructing Meaningful Code Changes via Graph Transformer, IET Software. 17(2), 154-167, April 2023. [[link](https://doi.org/10.1049/sfw2.12097)](SCI, CCF B).
 5. He Jiang (*), Yulong Li, Shikai Guo, Xiaochen Li, Tao Zhang, Hui Li, Rong Chen, Dup-Hunter: Detecting Duplicate Pull Requests in Fork-Based Development, IEEE Transactions on Software Engineering, 49(4): 2920-2940 (2023). (SCI, CCF A).
-6. Wenjun Tang, Rong Chen (*), Jiali Zhang, Lin Huang, Shengjie Zheng, Shikai Guo, Optimization of Web Service Testing Task Assignment in Crowdtesting Environment, Journal of Computer Science and Technology. [[link](https://doi.org/10.1007/s11390-022-0824-7 )](SCI, CCF B).
-7. Zixuan Song, Xiuwei Shang, Mengxuan Li, Rong Chen, Hui Li, Shikai Guo (*), Do Not Have Enough Data? An Easy Data Augmentation for Code Summarization, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022), 杰出论文奖. 
-8. Shikai Guo, Bowen Ping, Zixuan Song, Hui Li and Rong Chen, Data Augmentation Method for Generating Titles in StackOverflow, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022). 
-9. shikai Guo, Mengxuan Li, Xin Ge, Hui Li and Rong Chen, Structuring Meaningful Code Changes in Developer Community, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022). 
-10. Shikai Guo, Xihui Xu, Rong Chen and Hui Li, Deep Just-In-Time Consistent Comment Update via Source Code Changes, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022). 
+6. Wenjun Tang, Rong Chen (*), Jiali Zhang, Lin Huang, Shengjie Zheng, Shikai Guo, Optimization of Web Service Testing Task Assignment in Crowdtesting Environment, Journal of Computer Science and Technology. [[link](https://doi.org/10.1007/s11390-022-0824-7)](SCI, CCF B).
+7. Zixuan Song, Xiuwei Shang, Mengxuan Li, Rong Chen, Hui Li, Shikai Guo (*), Do Not Have Enough Data? An Easy Data Augmentation for Code Summarization, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022), 杰出论文奖.
+8. Shikai Guo, Bowen Ping, Zixuan Song, Hui Li and Rong Chen, Data Augmentation Method for Generating Titles in StackOverflow, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022).
+9. shikai Guo, Mengxuan Li, Xin Ge, Hui Li and Rong Chen, Structuring Meaningful Code Changes in Developer Community, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022).
+10. Shikai Guo, Xihui Xu, Rong Chen and Hui Li, Deep Just-In-Time Consistent Comment Update via Source Code Changes, The 13th International Symposium on Parallel Architectures, Algorithms and Programming (PAAP 2022).
 11. Shikai Guo, Jiahui Wang (Co-First author), Zhihao Xu, Lin Huang, Rong Chen (*), Hui Li, Feature Re-Learning by Reinforcement Learning for Detecting Software Defect, Software: Practice and Experience, 53(2), 366-389, 2023. [[link](https://doi.org/10.1002/spe.3152)] (SCI, CCF B).
 12. Shikai Guo, Zhongyan Liu, Zixuan Song, Hui Li, Rong Chen (*), Code Samples Summarization for Knowledge Exchange in Developer Community, Software: Practice and Experience, 53(2), 347-365, 2023. [[link](https://doi.org/10.1002/spe.3151)] (SCI, CCF B).
 13. Shikai Guo, He Jiang (*), Zhihao Xu, Xiaochen Li, Zhilei Ren, Zide Zhou, Rong Chen, Detecting Simulink Compiler Bugs via Controllable Zombie Blocks Mutation, The 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (FSE 2022), Singapore, November 14-18, 2022. [[link](https://doi.org/10.1145/3540250.3549159)] (EI, CCF A).

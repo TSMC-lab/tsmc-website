@@ -2,7 +2,7 @@
 pageClass: about-page
 description: 'The biography and information about me.'
 avatar: /profile.jpg
-head: 'TSMC lab'
+head: 'TSMC Club'
 info: 'Dalian Maritime University'
 # socials:
 # - title: github
