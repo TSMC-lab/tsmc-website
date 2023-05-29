@@ -79,7 +79,7 @@ email:
 
 ## 历届成员
 
-[→ 点击查看全部成员](/members/)
+[→ 以下为目前成员，点击查看全部成员](/members/)
 
 <!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
