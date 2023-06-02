@@ -38,7 +38,14 @@ email:
   <MultiPleCard :images="'/moments/金石滩.jpeg'" hideBorder=true>
  </MultiPleCard>
 - **[May 2023] 大连科技创新大会**
- <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']">
+ <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']" hideBorder=true>
+ </MultiPleCard>
+ - **[May 2023] 社团成员尚修为获奖[[链接]()]**
+ <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']" hideBorder=true>
+ </MultiPleCard>
+</MultiPleCard>
+ - **[June 2023] 19级成员毕业**
+ <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg','/moments/创新大会2.jpeg']">
  </MultiPleCard>
 <!-- - [July 1980] Born in Godric's Hollow, West Country, England, Great Britain -->
 

@@ -35,6 +35,16 @@
           return [this.images];
         }
       },
+      imageCount() {
+        return this.images.length;
+      },
+    },
+    mounted() {
+      this.setCardColumns();
+      window.addEventListener('resize', this.setCardColumns);
+    },
+    beforeDestroy() {
+      window.removeEventListener('resize', this.setCardColumns);
     },
     methods: {
       showImage(index) {
@@ -45,9 +55,16 @@
         this.showZoom = false;
         this.currentImageIndex = 0;
       },
+      setCardColumns() {
+        const cardWidth = this.$el.offsetWidth;
+        const imageWidth = this.$refs.cardImages.children[0].offsetWidth;
+        const cardColumns = Math.floor(cardWidth / imageWidth);
+        document.documentElement.style.setProperty('--card-columns', cardColumns);
+      },
     },
   };
   </script>
+  
   
   <style lang="stylus">
   @import './styles/config.styl';
@@ -60,7 +77,7 @@
     flex-direction row
     align-items: stretch
     .card-images
-      display inline-flex // 修改这里
+      display inline-flex
       width 100%
       padding-left 0.5rem
       padding-right 0.5rem
