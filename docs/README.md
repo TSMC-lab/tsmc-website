@@ -2,7 +2,7 @@
 pageClass: home-page
 # some data for the components
 
-name: TSMC-Club
+name: TSMC学社
 profile: /profile.jpg
 
 socials:
@@ -18,7 +18,7 @@ socials:
 
 # cv: https://en.wikipedia.org/wiki/Harry_Potter
 bio: 大连海事大学
-email: 
+email:
 ---
 <ProfileSection :frontmatter="$page.frontmatter" />
 
@@ -30,31 +30,44 @@ email:
 
  💫
 
-## 近期动态
+## 近期活动
+[→ 点击查看全部](/activities/)
+
 - **成员过生日**
   <MultiPleCard :images="'/moments/生日记录1.jpeg'" hideBorder=true>
- </MultiPleCard>
-- **[May 2023] 金石滩团建** 
+  </MultiPleCard>
+- **[May 2023] 金石滩团建**
   <MultiPleCard :images="'/moments/金石滩.jpeg'" hideBorder=true>
- </MultiPleCard>
+  </MultiPleCard>
 - **[May 2023] 大连科技创新大会**
- <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']" hideBorder=true>
- </MultiPleCard>
- - **[May 2023] 社团成员尚修为获奖[[链接]()]**
- <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']" hideBorder=true>
- </MultiPleCard>
-</MultiPleCard>
- - **[June 2023] 19级成员毕业**
- <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg','/moments/创新大会2.jpeg']">
- </MultiPleCard>
-<!-- - [July 1980] Born in Godric's Hollow, West Country, England, Great Britain -->
+  <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']" hideBorder=true>
+  </MultiPleCard>
+- **[May 2023] 社团成员尚修为获奖[[链接]()]**
+  <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg']" hideBorder=true>
+  </MultiPleCard>
+  </MultiPleCard>
+- **[June 2023] 19级成员毕业**
+  <MultiPleCard :images="['/moments/创新大会1.jpeg','/moments/创新大会2.jpeg','/moments/创新大会2.jpeg']" hideBorder=true>  
+  </MultiPleCard>
 
-<!-- - **Hogwarts School of Witchcraft and Wizardry**
-  Sept 1991 - 1997 -->
+## 近期成果
 
-## 项目
+[→ 点击查看全部](/projects/#论文著作)
 
-[→ 点击查看全部](/projects/)
+<ProjectCard hideBorder=true>
+
+- Dong Liu, He Jiang (*), Shikai Guo, Yuting Chen, Lei Qiao, What’s Wrong with Low-Code Development Platforms? An Empirical Study of Low-Code Development Platform Bugs, IEEE Transactions on Reliability. (SCI, CCF C, JCR 1区). (Accepted)
+- Shikai Guo, Siwen Wang, Hui Li (*), Yulong Fan, Yaqing Liu, Bin Zhang, Multi-Feature Fusion Based Structural Deep Neural Network for Predicting Answer Time on Stack Overflow, Journal of Computer Science and Technology. [[link](DOI：https://doi.org/10.1007/s11390-023-1438-4)](SCI, CCF B).
+- He Jiang (*), Hongyi Cheng, Shikai Guo, Xiaochen Li, Partition Based Differential Testing for Finding Embedded Code Generation Bugs in Simulink, the 60th ACM/IEEE Design Automation Conference (DAC 2023). (EI, CCF A). (Accepted)
+- Shikai Guo, Mengxuan Li, Xin Ge (*), Hui Li, Rong Chen, Tingting Li, Constructing Meaningful Code Changes via Graph Transformer, IET Software. 17(2), 154-167, April 2023. [[link](https://doi.org/10.1049/sfw2.12097)](SCI, CCF B).
+- He Jiang (*), Yulong Li, Shikai Guo, Xiaochen Li, Tao Zhang, Hui Li, Rong Chen, Dup-Hunter: Detecting Duplicate Pull Requests in Fork-Based Development, IEEE Transactions on Software Engineering, 49(4): 2920-2940 (2023). (SCI, CCF A).
+
+</ProjectCard>
+
+
+## 近期项目
+
+[→ 点击查看全部](/projects/#项目)
 
 <ProjectCard image="/projects/1.png" hideBorder=true>
 
@@ -129,6 +142,7 @@ email:
   2019.08 “创青春”辽宁青年创新创业大赛一等奖
 
 </ProjectCard> -->
+
 <!-- <ProjectCard image="/projects/1.png" hideBorder=true>
 
   **王倩**

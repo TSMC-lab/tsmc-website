@@ -72,7 +72,7 @@
   .md-card.large
     background-color $frontColor
     margin-top 1em
-    min-height 250px
+    min-height 150px
     display flex
     flex-direction row
     align-items: stretch

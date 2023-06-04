@@ -2,7 +2,7 @@
 pageClass: about-page
 description: 'The biography and information about me.'
 avatar: /profile.jpg
-head: 'TSMC Club'
+head: 'TSMC学社'
 info: 'Dalian Maritime University'
 # socials:
 # - title: github
@@ -14,9 +14,9 @@ info: 'Dalian Maritime University'
 # - title: email
 #   link: 'mailto:harry[at]gmail.com'
 actions:
-- text: Projects
-  link: /projects/
-- text: CV
+# - text: Projects
+#   link: /projects/
+- text: 主页
   link: /
 footer: Made with ♥ by Fing. Powered by VuePress
 ---

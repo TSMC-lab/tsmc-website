@@ -7,20 +7,30 @@ pageClass: projects-page
 
 ## 项目
 
-### 创新创业类项目
+<!-- ### 创新创业类项目 -->
 
 <ProjectCard image="/projects/1.png">
 
   Harry P., Hermione G., *et al*
 
-  **项目**
+  **竞赛项目**
   这里填写项目
 
   [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
 
 </ProjectCard>
 
-### 竞赛类项目
+<ProjectCard image="/projects/1.png">
+
+  Harry P., Hermione G., *et al*
+
+  **创新创业项目**
+  这里填写项目
+
+  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
+
+</ProjectCard>
+<!-- ### 竞赛类项目 -->
 
 ## 论文著作
 
