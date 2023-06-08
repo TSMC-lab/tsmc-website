@@ -8,8 +8,8 @@
 使用下列命令来配置
 
 ```bash
-git clone git@github.com:lizzy-0323/vuepress-homepage.
-cd vuepress-homepage
+# 下载
+git clone git@github.com:TSMC-lab/tsmc-website.gi
 # 运行配置脚本
 bash config.sh
 ```
