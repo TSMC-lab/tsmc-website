@@ -11,7 +11,7 @@
   </script>
   
   <style lang="stylus">
-  .image-zoom {
+  .image-soom {
     position: fixed;
     top: 0;
     left: 0;

@@ -9,7 +9,7 @@
 
 ```bash
 # 下载
-git clone git@github.com:TSMC-lab/tsmc-website.gi
+git clone git@github.com:TSMC-lab/tsmc-website.git
 # 运行配置脚本
 bash config.sh
 ```
@@ -42,6 +42,7 @@ bash run.sh
 2. 如果要添加其他的页面，请添加其他的md文件，然后在**config.js**中进行配置，
 3. 如果你要添加其他组件，请自己编写vue文件，并在你的md文件中引用即可，组件都写在**components**文件夹里
 4. 如果需要了解更多关于该网页的知识，你可以查看文档[[vuepress](https://vuepress.vuejs.org/zh/)]和[[vue](https://cn.vuejs.org/)]
+
 # 致谢
 
 感谢[@imfing](https://github.com/imfing)的项目模版,本实验室lab主页使用了他的模版进行修改。

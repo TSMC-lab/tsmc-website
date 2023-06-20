@@ -8,5 +8,5 @@ git add .
 # 提交文件，引号内为提交信息，可以更改
 git commit -m "update"
 # 推送到远程仓库
-git push git@github.com:TSMC-lab/tsmc-website.git HEAD
+git push git@github.com:TSMC-lab/tsmc-website.git
 
